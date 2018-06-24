@@ -1,0 +1,10 @@
+{
+  "name": "rasa-ec2-server-toggle",
+  "version": "1.0.0",
+  "description": "HTTP post requests to start and stop ec2 server",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "serverless-python-requirements": "^3.3.1"
+  }
+}
