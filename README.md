@@ -29,7 +29,7 @@ Set up an AWS IAM serverless-admin with Admin privileges
 
 `> aws configure`
 
-Use key and secret credentials; Find a proper region in aws console (default us-east-1); Last section set to json
+Use key and secret credentials; Find a proper region in AWS console (default us-east-1); Last section set to json
 
 
 # Installation of python packages on lambda
@@ -44,7 +44,7 @@ Use key and secret credentials; Find a proper region in aws console (default us-
 
 ### Deploy
 `serverless deploy function --function <function name>`
-After deployment, the endpoint will be acquired
+After deployment, the endpoint will be created
 
 ### Debug
 `serverless logs -f <function name> -t`
